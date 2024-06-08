@@ -194,7 +194,7 @@
         YouTubeSVG
     ).register()
 
-    let trackContextMenu = new Spicetify.ContextMenu.Item("Edit Wallpaper", () => {}, true, YouTubeSVG)
+    let trackContextMenu = new Spicetify.ContextMenu.Item("Edit Wallpaper", () => {}, () => true, YouTubeSVG)
     trackContextMenu.register()
   
     // startup parse
